@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/jiayu/s3_h560" name="jisana/android_device_jiayu_s3_h560" remote="github" revision="los-15" groups="pdk" />
+  <project path="vendor/jiayu/s3_h560" name="jisana/android_vendor_jiayu_s3_h560" remote="github" revision="lineage-15.0" groups="pdk" />
+  <project path="vendor/mad" name="jisana/android_vendor_mad" remote="github" revision="lineage-15.0" groups="pdk" />
+  <project path="kernel/jiayu/s3_h560" name="jisana/android_kernel_jiayu_s3_h560" remote="github" revision="android-8" groups="pdk" />
+  <project path="vendor/mediatek" name="jisana/o_vendor_mediatek" remote="github" revision="los-15.0" groups="pdk" />
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.0" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+</manifest>
